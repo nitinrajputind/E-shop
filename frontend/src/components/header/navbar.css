@@ -1,0 +1,13 @@
+.navbar-toggler{
+    right: 0 !important;
+}
+.postion_fixed{
+    position: sticky;
+    z-index: 2000;
+    left: 0;
+    top: 113px;
+}
+.nav-item a{
+    font-size: 18px;
+    color: #fff !important;
+}

@@ -1,0 +1,58 @@
+.navbar-brand h2{
+    font-size: 2rem;
+}
+.navbar{
+    padding: 0 !important;
+    background-color: #394657 !important;
+    position: relative;
+}
+.navbar-brand h2 span{
+    font-size: 3rem;
+    color: #4444ab;
+}
+.cart_and_Sign_In{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Sign_In a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 2px;
+    border: 1px solid #131921;
+    border-radius: 2px;
+    padding: 8px;
+}
+.Sign_In a:hover{
+    border: 1px solid white;
+}
+.cart_icon #icon{
+    margin-right: 10px;
+    color: #fff;
+    margin-top: 2px;
+}
+.form-control{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.btn{
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important; 
+}
+
+.navbar .Search{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.searchbar{
+    min-height: 113px;
+    position: sticky;
+    z-index: 2000;
+    top: 0;
+}

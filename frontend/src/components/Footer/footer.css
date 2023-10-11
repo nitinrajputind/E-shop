@@ -1,0 +1,116 @@
+.Footer_Contanier{
+    width: 100%;
+    background-color: #394657 !important;
+    margin-top: 20px;
+    padding: 30px;
+    padding-bottom: 20px;
+
+}
+
+.footerContanierUpper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.leftContanier{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_Container_item h2{
+    color: black;
+    font-size: 1.8rem;
+}
+.Quick{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Quick li a{
+    text-decoration: none;
+      color: #fff;
+}
+
+@media screen and (max-width : 1117px) {
+    .footer_Container_item h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width : 1087px) {
+    .rightcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footerContanierUpper {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+}
+
+.footerContanierLower{
+    margin-top: 20px;
+    width: 100%;
+}
+.footerContanierLower h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 700px){
+    .footerContanierUpper {
+        flex-wrap: wrap;
+    }
+    .rightcontainer {
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 611px) {
+    .left_Container_item h2, .right_Container_item h2 {
+        font-size: 17px;
+    }
+    .left_Container_item p, .right_Container_item p {
+        font-size: 14px;
+    }
+    .footerContanierUpper {
+        flex-wrap: nowrap;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .hide p{
+        display: none;
+    }
+    .footerContanierUpper{
+        column-gap: 10px;
+    }
+    .hide a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 333px) {
+    .footerContanierUpper{
+        flex-wrap: wrap;
+    }
+}
