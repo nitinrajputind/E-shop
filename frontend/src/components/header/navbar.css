@@ -7,7 +7,7 @@
     left: 0;
     top: 113px;
 }
-.nav-item a{
+.nav-item >a{
     font-size: 18px;
     color: #fff !important;
 }

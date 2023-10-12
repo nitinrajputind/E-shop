@@ -1,14 +1,18 @@
-import React,{useState} from 'react'
+import React,{useContext, useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import Searchbar from './Searchbar'
 import "./navbar.css"
+import { Contextdata } from '../Context/Api'
 
 const Navbar = () => {
+    const data1 = useContext(Contextdata);
+
 
     const [menuOpen, setMenuOpen] = useState(false)
 
     const closeMenu = () =>{
         setMenuOpen(false)
+        window.scrollTo(0, 0)
     }
 
     console.log(menuOpen)
@@ -24,30 +28,46 @@ const Navbar = () => {
             <div className={`collapse navbar-collapse ${menuOpen? "show" : ""}`} id="navbarNavDropdown">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <NavLink className="nav-link active" aria-current="page" href="#" onClick={closeMenu}>Home</NavLink>
+                        <NavLink className="nav-link active" aria-current="page"  to={"/"} onClick={closeMenu}>Home</NavLink>
                     </li>
                     
                     <li className="nav-item">
-                        <NavLink className="nav-link" href="#" onClick={closeMenu} >Mobile</NavLink>
+                        <NavLink className="nav-link"  to={"/mobile"} onClick={closeMenu} >Mobile</NavLink>
                     </li>
                     
                     <li className="nav-item">
-                        <NavLink className="nav-link" href="#" onClick={closeMenu}>Tablet</NavLink>
+                        <NavLink className="nav-link" to={"/tablet"} onClick={closeMenu}>Tablet</NavLink>
                     </li>
                     
                     <li className="nav-item dropdown">
-                        <NavLink className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <NavLink className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Laptop
                         </NavLink>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><NavLink className="dropdown-item" href="#">All</NavLink></li>
-                            <li><NavLink className="dropdown-item" href="#">MAC</NavLink></li>
-                            <li><NavLink className="dropdown-item" href="#">Windows</NavLink></li>
+                            <li><NavLink className="dropdown-item" to={"/laptop/all"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
+                            <li>
+                                {
+                                   data1 && data1.filter((item)=> item.ID ===23).map((item,index)=>{
+                                        return(
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >MAC</NavLink>
+                                        )
+                                    })
+                                }
+                            </li>
+                            <li>
+                                {
+                                    data1 && data1.filter((item)=> item.ID ===32).map((item,index)=>{
+                                        return(
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Windows</NavLink>
+                                        )
+                                    })
+                                }
+                            </li>
                         </ul>
                     </li>
                     
                     <li className="nav-item">
-                        <NavLink className="nav-link" href="#" onClick={closeMenu}>Accessories</NavLink>
+                        <NavLink className="nav-link" to={"/accessories"} onClick={closeMenu}>Accessories</NavLink>
                     </li>
                 </ul>
             </div>

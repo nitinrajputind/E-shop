@@ -4,6 +4,10 @@ import { AiFillYoutube , AiFillFacebook ,AiFillTwitterSquare , AiFillInstagram} 
 import "./footer.css"
 
 const Footer = () => {
+    const ScrollTop=()=>{
+        window.scrollTo(0, 0)
+    }
+
   return (
     <div className='Footer_Contanier'>
         <div className="footerContanierUpper">
@@ -17,11 +21,11 @@ const Footer = () => {
                 <div className="left_Container_item">
                     <h2>Quick Links</h2>
                         <ul className="Quick">
-                            <li><Link>Home</Link></li>
-                            <li><Link>Mobile</Link></li>
-                            <li><Link>Tablet</Link></li>
-                            <li><Link>Laptop</Link></li>
-                            <li><Link>Accessories</Link></li>
+                            <li><Link to={"/"} onClick={ScrollTop}>Home</Link></li>
+                            <li><Link to={"/mobile"} onClick={ScrollTop}>Mobile</Link></li>
+                            <li><Link to={"/tablet"} onClick={ScrollTop}>Tablet</Link></li>
+                            <li><Link to={"/laptop/all"} onClick={ScrollTop}>Laptop</Link></li>
+                            <li><Link to={"/accessories"} onClick={ScrollTop}>Accessories</Link></li>
                         </ul>
                         
                  </div>

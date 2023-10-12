@@ -5,7 +5,7 @@ const productData = [
     deatilname:
       "Lava Blaze 5G (Glass Green, 8GB RAM, UFS 2.2 128GB Storage) | 5G Ready | 50MP AI Triple Camera | Upto 16GB Expandable RAM | Charger Included | Clean Android (No Bloatware)",
     Image:
-      "https://m.media-amazon.com/images/I/81wl3jkawEL._SL1500_.jpg",
+      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/mobile/cdnhr3eqvhe0wnr3d27j",
     Saleprice: " -27% ₹11,999",
     MRP: "M.R.P.: ₹16,499",
     Rating: "4",
@@ -15,7 +15,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Saturday, 30 September. Details",
     Warranty: "No Warranty",
@@ -27,7 +27,7 @@ const productData = [
     Name: "Iphone 14 pro max",
     deatilname: "Apple iPhone 14 Pro Max (128 GB) - Space Black",
     Image:
-      "https://m.media-amazon.com/images/I/71ZDY57yTQL._SL1500_.jpg",
+      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/mobile/mpotlwzuex0aj8sbaou2",
     Saleprice: "-9% ₹1,27,999",
     MRP: "M.R.P.: ₹1,39,900",
     Rating: "4.5",
@@ -37,7 +37,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Wednesday, 4",
     Warranty: "No Warranty ",
@@ -59,7 +59,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabeoffer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Wednesday, 4",
     Warranty: "No Warranty ",
@@ -81,7 +81,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Saturday, 30 September.",
     Warranty: "No Warranty ",
@@ -104,7 +104,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Saturday, 30 September. ",
     Warranty: "No Warranty ",
@@ -126,7 +126,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -149,7 +149,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -171,7 +171,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -193,7 +193,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -215,7 +215,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -238,7 +238,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -261,7 +261,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -284,7 +284,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -306,7 +306,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -329,7 +329,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -352,7 +352,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -375,7 +375,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -398,7 +398,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -420,7 +420,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -443,7 +443,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -468,38 +468,16 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop",
+    brandname: "apple",
   },
   {
     ID: 22,
-    Name: "ASUS ROG Zephyrus M16 (2022),",
-    deatilname:
-      "Acer Predator Helios Neo 16 Gaming Laptop 13th Gen Intel Core i9 Processor (16 GB/1 TB SSD/Windows 11 Home/NVIDIA GeForce RTX 4060) PHN16-71, (16) WUXGA Display",
-    Image:
-      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/laptop/rnykzqew6ilfeekfoogc",
-    Saleprice: "-29% ₹1,65,591  ",
-    MRP: "M.R.P.: ₹1,71,999",
-    Rating: " 4.5",
-    Availabeoffer1:
-      "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card",
-    Availabeoffer2:
-      "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
-    Availabeoffer3:
-      "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
-      "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
-    Delivery: "FREE delivery Sunday, 1 October ",
-    Warranty: "No Warranty ",
-    quantity: 1,
-    category: "laptop ",
-  },
-  {
-    ID: 23,
     Name: "Apple 2023 MacBook Air Laptop with M2 chip",
     deatilname:
       "Apple 2023 MacBook Air Laptop with M2 chip: 38.91 cm (15.3-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera,Touch ID. Works with iPhone/iPad; Silver",
@@ -514,38 +492,17 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "apple",
   },
+
   {
-    ID: 24,
-    Name: "ASUS TUF Gaming F15 (2023) 90WHr Battery, Intel Core i7",
-    deatilname:
-      "ASUS TUF Gaming F15 (2023) 90WHr Battery, Intel Core i7-12700H 12th Gen, 15.6 FHD 144Hz, 8GB RTX 4060, Gaming Laptop (16GB/512GB SSD/Windows 11//1-Zone RGB/Gray/2.20 Kg), FX507ZV-LP094W",
-    Image:
-      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/laptop/d8thrr3txmvnnvv3gi53",
-    Saleprice: "-18% ₹1,09,990",
-    MRP: "M.R.P.: ₹1,33,990",
-    Rating: " 4.5",
-    Availabeoffer1:
-      "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card",
-    Availabeoffer2:
-      "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
-    Availabeoffer3:
-      "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
-      "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
-    Delivery: "FREE delivery Sunday, 1 October ",
-    Warranty: "No Warranty ",
-    quantity: 1,
-    category: "laptop ",
-  },
-  {
-    ID: 25,
+    ID: 23,
     Name: "Apple MacBook Air Laptop M1 chip,",
     deatilname:
       "Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Silver,",
@@ -560,13 +517,64 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "apple",
   },
+  {
+    ID: 24,
+    Name: "ASUS ROG Zephyrus M16 (2022),",
+    deatilname:
+      "Acer Predator Helios Neo 16 Gaming Laptop 13th Gen Intel Core i9 Processor (16 GB/1 TB SSD/Windows 11 Home/NVIDIA GeForce RTX 4060) PHN16-71, (16) WUXGA Display",
+    Image:
+      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/laptop/rnykzqew6ilfeekfoogc",
+    Saleprice: "-29% ₹1,65,591  ",
+    MRP: "M.R.P.: ₹1,71,999",
+    Rating: " 4.5",
+    Availabeoffer1:
+      "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card",
+    Availabeoffer2:
+      "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
+    Availabeoffer3:
+      "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
+    "Availabe offer 4":
+      "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
+    Delivery: "FREE delivery Sunday, 1 October ",
+    Warranty: "No Warranty ",
+    quantity: 1,
+    category: "laptop ",
+    brandname: "window",
+  },
+
+  {
+    ID: 25,
+    Name: "ASUS TUF Gaming F15 (2023) 90WHr Battery, Intel Core i7",
+    deatilname:
+      "ASUS TUF Gaming F15 (2023) 90WHr Battery, Intel Core i7-12700H 12th Gen, 15.6 FHD 144Hz, 8GB RTX 4060, Gaming Laptop (16GB/512GB SSD/Windows 11//1-Zone RGB/Gray/2.20 Kg), FX507ZV-LP094W",
+    Image:
+      "https://res.cloudinary.com/dpqbph9ya/image/upload/f_auto,q_auto/v1/laptop/d8thrr3txmvnnvv3gi53",
+    Saleprice: "-18% ₹1,09,990",
+    MRP: "M.R.P.: ₹1,33,990",
+    Rating: " 4.5",
+    Availabeoffer1:
+      "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card",
+    Availabeoffer2:
+      "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
+    Availabeoffer3:
+      "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
+    "Availabe offer 4":
+      "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
+    Delivery: "FREE delivery Sunday, 1 October ",
+    Warranty: "No Warranty ",
+    quantity: 1,
+    category: "laptop ",
+    brandname: "window",
+  },
+
   {
     ID: 26,
     Name: "Dell Inspiron 7420 2in1 Touch Laptop,12th Gen Intel Core i3",
@@ -583,12 +591,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: " laptop",
+    brandname: "window",
   },
   {
     ID: 27,
@@ -606,12 +615,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 28,
@@ -629,12 +639,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 29,
@@ -652,12 +663,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 30,
@@ -675,12 +687,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 31,
@@ -698,12 +711,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: " laptop",
+    brandname: "window",
   },
   {
     ID: 32,
@@ -721,12 +735,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 33,
@@ -744,12 +759,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: " laptop",
+    brandname: "window",
   },
   {
     ID: 34,
@@ -767,12 +783,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 35,
@@ -790,12 +807,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: " laptop",
+    brandname: "window",
   },
   {
     ID: 36,
@@ -814,12 +832,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 37,
@@ -837,12 +856,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 38,
@@ -860,12 +880,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 39,
@@ -883,12 +904,13 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
     quantity: 1,
     category: "laptop ",
+    brandname: "window",
   },
   {
     ID: 40,
@@ -906,7 +928,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -931,7 +953,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -954,7 +976,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -977,7 +999,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1000,7 +1022,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1023,7 +1045,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1046,7 +1068,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1069,7 +1091,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1092,7 +1114,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1114,7 +1136,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1137,7 +1159,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1160,7 +1182,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1183,7 +1205,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1206,7 +1228,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1230,7 +1252,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1253,7 +1275,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1276,7 +1298,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1299,7 +1321,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1322,7 +1344,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1345,7 +1367,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1368,7 +1390,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1392,7 +1414,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1415,7 +1437,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1437,7 +1459,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1460,7 +1482,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1483,7 +1505,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1506,7 +1528,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1529,7 +1551,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1552,7 +1574,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1575,7 +1597,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1598,7 +1620,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1621,7 +1643,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1644,7 +1666,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1667,7 +1689,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1689,7 +1711,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1712,7 +1734,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1735,7 +1757,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1758,7 +1780,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1781,7 +1803,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1804,7 +1826,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1827,7 +1849,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1850,7 +1872,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Saturday, 30 September. Details",
     Warranty: "No Warranty",
@@ -1872,7 +1894,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Wednesday, 4",
     Warranty: "No Warranty ",
@@ -1894,7 +1916,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Wednesday, 4",
     Warranty: "No Warranty ",
@@ -1917,7 +1939,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1940,7 +1962,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1963,7 +1985,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -1986,7 +2008,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2009,7 +2031,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2032,7 +2054,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2054,7 +2076,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2077,7 +2099,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2099,7 +2121,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2122,7 +2144,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2145,7 +2167,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2168,7 +2190,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2191,7 +2213,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2214,7 +2236,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2237,7 +2259,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2260,7 +2282,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2283,7 +2305,7 @@ const productData = [
       "Bank Offer 10% Off on Bank of Baroda Mastercard debit card first time transaction, Terms and Condition apply",
     Availabeoffer3:
       "Purchase this Furniture or Appliance and Get Extra ₹500 Off on Select ACs",
-    Availabe_offer4:
+    "Availabe offer 4":
       "Partner OfferExtra 10% off upto ₹500 on next furniture purchase",
     Delivery: "FREE delivery Sunday, 1 October ",
     Warranty: "No Warranty ",
@@ -2291,5 +2313,4 @@ const productData = [
     category: " accessories",
   },
 ];
-
 module.exports = productData;

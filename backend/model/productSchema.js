@@ -16,6 +16,7 @@ const productSchema = new mongoose.Schema({
   Warranty: String,
   quantity: String,
   category: String,
+  brandname : String,
 });
 
 

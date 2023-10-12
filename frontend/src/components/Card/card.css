@@ -44,7 +44,7 @@
     color: #d63031;
 }
 .Sale_price{
-    line-height: 5px;
+    line-height: 15px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -53,7 +53,7 @@
     color: #2f3640;
 }
 .brand_price{
-    line-height: 5px;
+    line-height: 15px;
     font-size: 15px;
     font-weight: 700;
 }
