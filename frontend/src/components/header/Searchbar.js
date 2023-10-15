@@ -33,7 +33,7 @@ console.log(email)
     };
 
     axios
-      .post("/search", data)
+      .post("https://e-shop-api-kmrr.onrender.com/search", data)
       .then((response) => {
         setdata(response.data.data);
         console.log(response.data.data);
