@@ -23,7 +23,7 @@ function SignUp() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("/register", formData)
+      .post("https://e-shop-api-kmrr.onrender.com/register", formData)
       .then((response) => {
         if (response.data.user) {
           setFormData({

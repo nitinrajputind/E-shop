@@ -27,7 +27,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("/login", formData)
+      .post("https://e-shop-api-kmrr.onrender.com/login", formData)
       .then((response) => {
         if (response.data.user) {
           // console.log(response.data.user[0]);

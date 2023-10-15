@@ -11,7 +11,7 @@ function Api({ children }) {
 
   useEffect(() => {
     axios
-      .get("/getAllProducts")
+      .get("https://e-shop-api-kmrr.onrender.com/getAllProducts")
       .then((response) => {
         console.log(response.data);
         setData(response.data);
