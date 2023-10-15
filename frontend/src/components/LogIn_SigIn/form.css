@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  
+  li a{
+    color: white;
+  }
+  .login-container {
+    display: flex;
+    background-image: url("https://i.pinimg.com/564x/a3/b7/23/a3b723e94ea49578bc1899d7a3e37352.jpg");
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+  
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .sign-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* -----------------------------register----------------------------------- */
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/564x/a3/b7/23/a3b723e94ea49578bc1899d7a3e37352.jpg");
+    background-size: contain;
+    height: 100vh;
+
+  }
+  
+  .register-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
+  

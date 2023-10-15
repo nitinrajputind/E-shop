@@ -6,6 +6,7 @@
     background-color: #394657 !important;
     position: relative;
 }
+
 .navbar-brand h2 span{
     font-size: 3rem;
     color: #4444ab;
@@ -34,25 +35,43 @@
     color: #fff;
     margin-top: 2px;
 }
-.form-control{
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-}
-.btn{
-    border-bottom-left-radius: 0 !important;
-    border-top-left-radius: 0 !important; 
-}
-
-.navbar .Search{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Search{
+    width: 40%;
     margin: auto;
+    position: absolute;
+    z-index: 200;
+    top: 70px;
+    right: 10px;
 }
 .searchbar{
-    min-height: 113px;
     position: sticky;
-    z-index: 2000;
     top: 0;
+    z-index: 100000;
+}
+.list{
+    position: absolute;
+    z-index: 99;
+    top: 38px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 0.9rem;
+}
+.list a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #394657;
+}
+
+
+
+@media screen and (max-width : 972px) {
+    .Search{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width : 333px) {
+    .cart_and_Sign_In {
+        gap: 8px;
+    }
 }

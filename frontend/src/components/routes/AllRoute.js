@@ -8,6 +8,10 @@ import Tablet from '../pages/Tablet'
 import Accessories from '../pages/Accessories'
 import Navbar from '../header/Navbar'
 import Footer from '../Footer/Footer'
+import Login from '../LogIn_SigIn/Login'
+import SignUp from '../LogIn_SigIn/SignUp'
+import Product from '../ProductShow/Product'
+import Order from '../AddToCart/Order'
 
 const AllRoute = () => {
   return (
@@ -20,6 +24,11 @@ const AllRoute = () => {
           <Route path='/Mobile' element={<Mobile/>}/>
           <Route path='/tablet' element={<Tablet/>}/>
           <Route path='/accessories' element={<Accessories/>}/>
+          <Route path={"/login"} element={<Login/>}/>
+          <Route path={"/Signup"} element={<SignUp/>}/>
+
+          <Route path="/product/:id/:name" element={<Product/>} />
+          <Route path="/order" element={<Order />} />
         </Routes>
         <Footer/>
       </Api>

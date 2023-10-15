@@ -19,8 +19,8 @@ const Card = (prop) => {
           <p className='Sale_price'>Brand Sales Price : <span>{salePrice}</span></p>
           <p className='brand_price'>Brand MRP : <span>{branmrp}</span></p>
         </div>
-          <Link>
-          <button>Add to Cart</button>
+          <Link to={`/product/${id}/${category}`}>
+          <button onClick={()=>window.scroll(0,0)}>Add to Cart</button>
           </Link>
       </div>
     </div>

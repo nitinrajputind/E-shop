@@ -6,9 +6,9 @@ import { Contextdata } from '../Context/Api'
 
 const Navbar = () => {
     const data1 = useContext(Contextdata);
-
-
     const [menuOpen, setMenuOpen] = useState(false)
+
+
 
     const closeMenu = () =>{
         setMenuOpen(false)
