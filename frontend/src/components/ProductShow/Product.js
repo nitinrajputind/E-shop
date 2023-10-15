@@ -26,7 +26,7 @@ function Product() {
     console.log("Token:", token);
 
     axios
-      .get("/dashboard", {
+      .get("https://e-shop-seven-gamma.vercel.app/dashboard", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
