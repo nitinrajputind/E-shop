@@ -26,7 +26,7 @@ function Product() {
     console.log("Token:", token);
 
     axios
-      .get("https://e-shop-api-kmrr.onrender.com//dashboard", {
+      .get("https://e-shop-api-kmrr.onrender.com/dashboard", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
