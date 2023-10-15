@@ -11,7 +11,7 @@ function Api({ children }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/getAllProducts")
+      .get("/getAllProducts")
       .then((response) => {
         console.log(response.data);
         setData(response.data);
