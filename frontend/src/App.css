@@ -27,6 +27,7 @@ body{
   width: 90%;
   margin: auto;
   position: relative;
+  margin-top: 30px;
 }
 @media screen and (max-width : 555px) {
   .main_Contanier{

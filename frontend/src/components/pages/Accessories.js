@@ -35,7 +35,7 @@ const Accessories = () => {
 
 
       <div style={{marginTop:"20px"}}>
-        <h2 style={{textAlign:"center", fontSize:"2rem" , fontWeight:"700", margin:"70px 0 20px 0"}}>Sales on Big Billion Day</h2>
+        <h2 style={{textAlign:"center", fontSize:"2rem" , fontWeight:"700", margin:"70px 0 20px 0"}}>Sales on Accessories</h2>
         <iframe
              height={"400px"}
              width={"100%"}

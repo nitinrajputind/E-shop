@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom"; // Import withRouter
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./form.css"
 
 
@@ -38,11 +40,21 @@ function Login() {
           localStorage.setItem("email", email)
           nav("/");
         } else {
+
+          toast(`${response.data.msg}`, {
+            position: "top-center"
+            });
+
           setdata(response.data.msg);
         }
       })
       .catch((error) => {
         console.error("Error logging in:", error);
+
+        toast(`${error.message}`, {
+          position: "top-center"
+        });
+        
       });
   };
 
@@ -84,6 +96,10 @@ function Login() {
           <button className="sign-button">click here for signup</button>
         </Link>
       </form>
+
+
+      <ToastContainer />
+
     </div>
   );
 }
