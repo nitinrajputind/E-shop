@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, removeItem } from "../Redux/Slice/Slice";
 import {Divider} from "@mui/material"
+import { loadStripe } from "@stripe/stripe-js";
 import "./order.css"
 
 function Order() {
@@ -10,8 +12,6 @@ function Order() {
 
   const dispatch = useDispatch(); 
 
-  // Filter the items based on user_id
-  const filteredItems = select.filter((item) => item.user_id === userid);
 
   const handleIncrement = (index) => {
     dispatch(increment(index));
@@ -32,15 +32,74 @@ function Order() {
   };
 
   const pricecal = (item) => {
-    const cleanedPrice = item.replace(/\s/g, "").replace(/[^\d]/g, "");
-    const price = parseInt(cleanedPrice, 10);
-    return price;
+    // const cleanedPrice = item.replace(/\s/g, "").replace(/[^\d]/g, "");
+    // const price = parseInt(cleanedPrice, 10);
+    return item.price;
   };
 
-  const totalAmount = filteredItems.reduce(
-    (total, item) => total + pricecal(item.price) * item.quantity,
+  const cart2 = select.map((item) => ({
+    ...item,
+    price: parseInt(item.price.replace(/\s/g, "").replace(/[^\d]/g, ""), 10)
+      .toString()
+      .slice(2, 10),
+  }));
+  // -----------------------------final---------------------------
+  const cart3 = cart2.map((item) => ({
+    ...item,
+    price: parseInt(item.price),
+  }));
+  console.log("item in cart", cart3);
+
+
+  // -------------new--------
+  // Filter the items based on user_id
+  const filteredItems = cart3.filter((item) => item.user_id === userid);
+
+
+  const totalQuantity = filteredItems.reduce(
+    (total, item) => total + item.quantity,
     0
   );
+
+  const totalAmount = filteredItems.reduce(
+    (total, item) => total +(item.price) * item.quantity,
+    0
+  );
+
+
+
+  //-------------- Paymen Intigration --------------------------
+  const makepayment = async () => {
+    const stripe = await loadStripe(
+      "pk_test_51NCPAYSItp4zxD80Sgt6IQMetdOUyh3Kvs17Thauj56i1IyWYBn2u8byDboYRfA3k9VTPW0qMaYcCif9QtFd3AZQ00rCEMQsVX"
+    );
+
+    const body = {
+      products: cart3,
+    };
+    const headers = {
+      "Content-Type": "application/json",
+    };
+    const response = await fetch(
+      "https://e-shop-api-kmrr.onrender.com/api/create-checkout-session",
+      {
+        method: "POST",
+        headers: headers,
+        body: JSON.stringify(body),
+      }
+    );
+    const session = await response.json();
+    const result = stripe.redirectToCheckout({
+      sessionId: session.id,
+    });
+    if (result.error) {
+      console.log(result.error);
+    }
+  };
+
+
+
+
 
   return (
     <div className="Order_Container">
@@ -67,7 +126,7 @@ function Order() {
               <div className="second-cont">
 
                 <p>Brand-Name: <span>{item.name}</span></p>
-                <p className="BrandPrice">Brand-Price: <span>{item.price}</span></p>
+                <p className="BrandPrice">Brand-Price: ₹<span>{item.price}</span></p>
 
                 <div className="Order_btn">
 
@@ -123,7 +182,7 @@ function Order() {
                     <br />
                   </td>
                   <td>{item.name.slice(0, 7)}.</td>
-                  <td>₹{pricecal(item.price) * item.quantity}</td>
+                  <td>₹{(item.price) * item.quantity}</td>
                 </tr>
               ))}
             </tbody>
@@ -135,7 +194,7 @@ function Order() {
 
           </table>
 
-          <h1>Place your order</h1>
+          <button onClick={makepayment}>Place your order</button>
 
         </div>
       )}

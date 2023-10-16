@@ -12,6 +12,8 @@ import Login from '../LogIn_SigIn/Login'
 import SignUp from '../LogIn_SigIn/SignUp'
 import Product from '../ProductShow/Product'
 import Order from '../AddToCart/Order'
+import Sucess from '../Payment/Sucess'
+import Cancel from '../Payment/Cancel'
 
 const AllRoute = () => {
   return (
@@ -29,6 +31,11 @@ const AllRoute = () => {
 
           <Route path="/product/:id/:name" element={<Product/>} />
           <Route path="/order" element={<Order />} />
+
+
+          {/* Payment Routes */}
+          <Route path="/Sucess" element={<Sucess/>} />
+          <Route path="/Cancel" element={<Cancel/>} />
         </Routes>
         <Footer/>
       </Api>
