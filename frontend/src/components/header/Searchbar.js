@@ -62,7 +62,6 @@ console.log(email)
     localStorage.removeItem("email");
   };
 
-
   return (
     <div className="searchbar">
       

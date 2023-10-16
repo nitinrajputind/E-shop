@@ -119,21 +119,20 @@
 
 
 
-/* Price Section  */
+/*---------- Price Section -------------*/
 
 .amount {
-  /* width: 30%; */
   background-color: #fff;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;  
 }
 table{
   width: 100%;
 }
 table tbody th h2{
   width: 100%;
-  /* text-align: center; */
-  /* font-size: 2rem; */
-
 }
 
 .Item_amount{
@@ -145,73 +144,27 @@ table td, tfoot, th, thead, tr{
   padding: 0px 20px 0 20px;
 }
 
-
-
-
-
-
-
-
-
-
-.amount table {
-  /* text-align: center; */
-}
-
-tr {
-  /* padding-bottom: 10px; */
-}
-
-/* 
-.amount h1 {
-  margin-top: 10px;
-  background-color: rgb(255, 63, 108);
-  color: white;
-  text-align: center;
-}
- */
-
-/* table {
-  width: 400px;
-  height: 200px;
-  background-color: white;
-} */
-
-
-/* 
-.sales {
-  text-align: center;
-  font-weight: bold;
-}
- */
-
-
-/* 
-@keyframes emptyCartAnimation {
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
+@media screen and (max-width: 815px) {
+  .OderProduct{
+    width: 90vw;
   }
-  50% {
-    transform: translateY(-10px) scale(1.1);
+  .amount{
+    width: 90vw;
+  }
+  table td, tfoot, th, thead, tr{
+    padding: 0px 2px 0px 2px;
   }
 }
 
-.empty-cart {
-  text-align: center;
-  font-size: 24px;
-  color: #555;
-  margin-top: 20px;
+.PaymentButton{
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #f1c40f;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.empty-cart img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 20px;
-  animation: emptyCartAnimation 1s infinite;
+.PaymentButton:hover{
+  color: #d63031;
 }
-
-.empty-cart p {
-  margin: 0;
-  font-weight: bolder;
-}  */

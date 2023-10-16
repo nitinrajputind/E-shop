@@ -194,7 +194,7 @@ function Order() {
 
           </table>
 
-          <button onClick={makepayment}>Place your order</button>
+          <button onClick={makepayment} className="PaymentButton">Place your order</button>
 
         </div>
       )}
