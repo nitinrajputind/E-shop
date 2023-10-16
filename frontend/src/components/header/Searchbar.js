@@ -8,8 +8,6 @@ import { useSelector } from "react-redux";
 import axios from "axios";
 
 
-
-
 const Searchbar = () => {
   const [name, setname] = useState("");
   const select = useSelector((state) => state.cart.data);
@@ -17,10 +15,11 @@ const Searchbar = () => {
   const filteredItems = select.filter((item) => item.user_id === userid);
   const [data1, setdata] = useState([]);
   const token = localStorage.getItem("token");
-  const email =localStorage.getItem("email")
+  const email =localStorage.getItem("email");
  
   // .split(" ")[0].toUpperCase();
 console.log(email)
+
 
   useEffect(() => {
     if (name === "") {
@@ -41,7 +40,7 @@ console.log(email)
       .catch((error) => {
         console.log(error);
       });
-  }, [name]);
+  },[name]);
 
   const handleChange = (e) => {
     setname(e.target.value);
@@ -56,18 +55,12 @@ console.log(email)
     setname("");
     window.scroll(0,0)
   };
+
   const handletoken = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("userid");
-    localStorage.clear();
+    localStorage.removeItem("email");
   };
-
-
-
-
-
-
-
 
 
   return (
@@ -84,23 +77,29 @@ console.log(email)
           <div className="cart_and_Sign_In">
             <div className="Sign_In">
               {
-                token? <NavLink onClick={handletoken}>Logout</NavLink> : <NavLink to={"/login"}>SignIn</NavLink>
+                token ? (<Link onClick={handletoken}>Logout</Link>) : (<Link to={"/login"}>SignIn</Link>)
               }
-              
               </div>
             
             <div className="avtar">
               {
-                email ? <Avatar className="avtar " style={{background:"skyblue"}}>{email.split("")[0].toUpperCase()}</Avatar> : <Avatar className="avtar "/>
+                email ?( <Avatar className="avtar " style={{background:"skyblue"}}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar "/>)
               }
             </div>
             
             <div className="cart_icon">
-              <NavLink to={"/order"}>
-              <Badge badgeContent={filteredItems.length} color="primary">
-                <ShoppingCartIcon id="icon" />
-              </Badge>
-              </NavLink>
+              <Link to={"/order"}>
+                {
+                  filteredItems.length ? (<Badge badgeContent={filteredItems.length} color="primary">
+                                            <ShoppingCartIcon id="icon" />
+                                          </Badge>)
+                                          :
+                                          (<Badge badgeContent={0} color="primary">
+                                            <ShoppingCartIcon id="icon" />
+                                          </Badge>)
+                }
+              
+              </Link>
               
 
             </div>

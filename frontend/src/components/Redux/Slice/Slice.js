@@ -59,6 +59,7 @@ const Slice = createSlice({
       // Update localStorage whenever state is modified
       localStorage.setItem("cartData", JSON.stringify(state.data));
     },
+    
   },
 });
 

@@ -74,26 +74,33 @@ function Product() {
 
   return (
     <>
-      <div className="productdetail1">
+      <div className="product_Contanier">
+
+
         {data
           .filter((item) => item.ID === parseInt(id))
           .map((item, index) => (
-            <div key={index} className="productdetail">
 
+
+            <div key={index} className="product_Render">
+
+              {/* Image Section Container */}
               <div className="productimage">
-                <img src={item.Image} alt="click here" height={"300px"} />
+                <img src={item.Image} alt="Product" height={"300px"} />
               </div>
-              
+
+              {/* Detail Section Container */}
+
               <div className="detail">
                 <h4>{item.deatilname}</h4>
-                <h5>Brand Name: {item.Name}</h5>
-                <p>Brand Rating: {item.Rating}</p>
-                <p>Brand Sales Price: {item.Saleprice}</p>
-                <p>Brand MRP: {item.MRP}</p>
-                <p>Warranty: {item.Warranty}</p>
-                <p>Delivery: {item.Delivery}</p>
+                <h5 className="Brand_Name"> Brand Name: <span>{item.Name}</span></h5>
+                <p className="Brand_Rate"> Brand Rating: <span>{item.Rating}</span></p>
+                <p className="BrandSale"> Brand Sales Price: <span>{item.Saleprice}</span></p>
+                <p className="BrandMRP"> Brand MRP: <span>{item.MRP}</span></p>
+                <p className="Brand_Warranty"> Warranty: <span>{item.Warranty}</span></p>
+                <p className="Delivery"> Delivery: <span>{item.Delivery}</span></p>
 
-                <ul>
+                <ul className="Bank_Offer">
                   <li>{item.Availabeoffer1}</li>
                   <li>{item.Availabeoffer3}</li>
                   <li>{item.Availabeoffer3}</li>
@@ -101,12 +108,12 @@ function Product() {
 
                 {verified ? (
                   <Link onClick={() => handleClick(item, item.ID)}>
-                    <button>Add To Cart</button>
+                    <button className="AddToCart">Add To Cart</button>
                   </Link>
                 ) : (
                   <p>
                     <Link to="/login">
-                      <button>login first</button>
+                    <button className="AddToCart">Add To Cart</button>
                     </Link>
                   </p>
                 )}
@@ -116,12 +123,19 @@ function Product() {
                   </div>
                 )}
               </div>
+                <ToastContainer />
             </div>
           ))}
+
+
+
+
+
         {/* Render three components only */}
         <Mutlislder id={100} />
 
-        <ToastContainer />
+        
+
       </div>
     </>
   );

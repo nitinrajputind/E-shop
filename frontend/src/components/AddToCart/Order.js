@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, removeItem } from "../Redux/Slice/Slice";
-import empty from "../assets/cart/emptycart.webp";
+import {Divider} from "@mui/material"
 import "./order.css"
 
 function Order() {
@@ -43,83 +43,104 @@ function Order() {
   );
 
   return (
-    <div className="parent-cont">
-      <div className="child-cont">
+    <div className="Order_Container">
+
+      <div className="OderProduct">
+        <div className="heading">
+        <h2>My Cart</h2>
+        </div>
+        <Divider/>
+        
+        {/* Product Render */}
+
         {filteredItems && filteredItems.length > 0 ? (
           filteredItems.map((item, index) => (
-            <div key={index} className="container">
+
+          <div key={index} className="container">
+            {/* Order Image */}
               <div className="first-cont">
                 <img src={item.image} alt="click here" height={"200px"} />
               </div>
+
+              {/* Order Details and Btn */}
+
               <div className="second-cont">
-                <p>Brand-Name: {item.name}</p>
-                <p>Brand-Price: {item.price}</p>
-                <div>
-                  <button
-                    className="button"
-                    onClick={() => handleDecrement(item.id, item.quantity)}
-                  >
-                    -
-                  </button>
+
+                <p>Brand-Name: <span>{item.name}</span></p>
+                <p className="BrandPrice">Brand-Price: <span>{item.price}</span></p>
+
+                <div className="Order_btn">
+
+                  <div className="incDre_tn">
+                  <button className="Left_button" onClick={() => handleDecrement(item.id, item.quantity)}> - </button>
                   <h4 className="value">{item.quantity}</h4>
-                  <button
-                    className="button"
-                    onClick={() => handleIncrement(item.id)}
-                  >
-                    +
-                  </button>
+                  <button className="Right_button" onClick={() => handleIncrement(item.id)}>+</button>
+                  </div>
+                  
+                    <div className="remove">
+                        <button onClick={() => handleRemove(item.id)}>Remove</button>
+                    </div>
                 </div>
-                <div className="remove">
-                  <button onClick={() => handleRemove(item.id)}>Remove</button>
-                </div>
+
+
               </div>
             </div>
           ))
-        ) : (
+        )
+
+         :
+
+        //  If Card is Empty Then This Conditon render
+        (
           <div className="no-items-message">
             <div className="empty-cart">
-              <img src={empty} alt="Empty Cart" />
+              <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt="Empty Cart" />
               <p>Cart is Empty</p>
             </div>
           </div>
         )}
       </div>
+
+      {/* Product Balance */}
+
       {filteredItems.length > 0 && (
         <div className="amount">
           <table>
             <tbody>
               <tr>
-                <th>
-                  <h2>Price Detail</h2>
-                </th>
+                <th><h2>Details</h2></th>
               </tr>
+
               <tr>
-                <th>Number Of Item</th>
-                <th>Brand Name</th>
+                <th>Item</th>
+                <th>Name</th>
                 <th>Price</th>
               </tr>
+
               {filteredItems.map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    {" "}
-                    No of item ({item.quantity})
+                <tr key={index} className="Item_amount">
+                  <td>{" "}No of item <span style={{color : "#d63031"}}>({item.quantity})</span>
                     <br />
                   </td>
-                  <td>{item.name.slice(0, 8)}...</td>
+                  <td>{item.name.slice(0, 7)}.</td>
                   <td>₹{pricecal(item.price) * item.quantity}</td>
                 </tr>
               ))}
-
-              <tr>
-                <td colSpan={"2"}>Total Amount :</td>
-
-                <td> ₹{totalAmount}</td>
-              </tr>
             </tbody>
+            
+              <tr>
+                <td colSpan={"2"} style={{color:"#2c3e50", fontSize:"1.5rem", fontWeight:"500"}}>Total Amount :</td>
+                <td style={{color:"#27ae60",fontSize:"1.5rem", fontWeight:"500"}}> ₹{totalAmount}</td>
+              </tr>
+
           </table>
+
           <h1>Place your order</h1>
+
         </div>
       )}
+
+
     </div>
   );
 }

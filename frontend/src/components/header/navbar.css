@@ -3,7 +3,7 @@
 }
 .postion_fixed{
     position: sticky;
-    z-index: 2000;
+    z-index: 10;
     left: 0;
     top: 75px;
 }

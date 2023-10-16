@@ -39,14 +39,14 @@
     width: 40%;
     margin: auto;
     position: absolute;
-    z-index: 200;
+    z-index: 10;
     top: 70px;
     right: 10px;
 }
 .searchbar{
     position: sticky;
     top: 0;
-    z-index: 100000;
+    z-index: 11;
 }
 .list{
     position: absolute;

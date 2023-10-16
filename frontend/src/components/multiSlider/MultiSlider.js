@@ -44,7 +44,7 @@ const Mutlislder = ({ id }) => {
           .map((item, index) => {
             return (
               <div className="slider" key={index}>
-                <Link to={"/product/" + item.ID + "/" + item.category}>
+                <Link to={"/product/" + item.ID + "/" + item.category} onClick={()=>{window.scroll(0,0)}}>
                 <img src={item.Image} alt="" />
                 </Link>
                 <div className="slider_content">
