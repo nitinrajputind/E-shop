@@ -47,7 +47,7 @@ const Accessories = () => {
           allowfullscreen
         ></iframe>
         <img
-          src="https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/1d2a222a9659fa9d.jpg?q=50"
+          src="https://m.media-amazon.com/images/G/31/img23/CEPC/jup23/coop/boat/1500x300s._CB575835935_.gif"
           alt=""
           height={"500px"}
           width={"100%"}

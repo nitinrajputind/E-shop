@@ -49,7 +49,7 @@ const Mobile = () => {
           allowfullscreen
         ></iframe>
         <img
-          src="https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/1d2a222a9659fa9d.jpg?q=50"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/CatPage/JUPITER/Ticker/OP_D80650255_1242x350.gif"
           alt=""
           height={"500px"}
           width={"100%"}

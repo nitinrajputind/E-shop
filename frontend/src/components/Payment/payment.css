@@ -1,0 +1,40 @@
+.Payment_Contanier{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sucess_Payment{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.Sucess_icon{
+    width: 900px;
+}
+.Sucess_icon img{
+    width: 100%;
+}
+.sucess_message{
+    text-align: center;
+}
+.sucess_message p a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Sucess_Payment h2{
+    color: brown;
+    font-weight: 600;
+}
+.Sucess_Payment h3{
+    color: blue;
+    font-weight: 700;
+} 

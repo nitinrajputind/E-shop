@@ -9,8 +9,8 @@ import { Contextdata } from "../Context/Api";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 5,
-    slidesToSlide: 5
+    items: 6,
+    slidesToSlide: 6
   },
   tablet: {
     breakpoint: { max: 1024, min: 768 },
@@ -19,8 +19,8 @@ const responsive = {
   },
   mobile: {
     breakpoint: { max: 768, min: 300 },
-    items: 2, // Adjusted to show only 1 item at a time on mobile
-    slidesToSlide: 2
+    items: 1, // Adjusted to show only 1 item at a time on mobile
+    slidesToSlide: 1
   }
 };
 

@@ -50,7 +50,7 @@ const login = async (req, res) => {
         const login = await USER.findOne({email: email});
 
         if(!login) {
-            return res.status(404).send({msg : "User is not Found"});
+            return res.status(200).send({msg : "User is not Found"});
         }
         if((await bcrypt.compare(password, login.password)) == false){
             return res.status(200).send({msg : "Password is incorrect"});
@@ -67,6 +67,8 @@ const login = async (req, res) => {
         res.status(500).send({msg : err.message});
     }
 }
+
+
 
 const dashboard = (req, res)=>{
     return res.send({

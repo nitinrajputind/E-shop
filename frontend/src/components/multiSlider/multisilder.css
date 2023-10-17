@@ -87,3 +87,6 @@
   border-radius: 10px;
   width: 50%;
 }
+.react-multiple-carousel__arrow {
+  z-index: 9 !important;
+}

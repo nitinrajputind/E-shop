@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./form.css"
 
 
@@ -96,6 +96,7 @@ function SignUp() {
         <button type="submit" className="register-button">
           Register
         </button>
+        <p className="Already_Account">Already have an account? <span><Link to={"/login"} >SignIn</Link></span></p>
       </form>
     </div>
   );

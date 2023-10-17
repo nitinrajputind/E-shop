@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, removeItem } from "../Redux/Slice/Slice";
 import {Divider} from "@mui/material"
 import { loadStripe } from "@stripe/stripe-js";
+import { Link } from 'react-router-dom'
 import "./order.css"
 
 function Order() {
@@ -154,7 +155,7 @@ function Order() {
           <div className="no-items-message">
             <div className="empty-cart">
               <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg" alt="Empty Cart" />
-              <p>Cart is Empty</p>
+             <p><Link to={"/"}>Cart is Empty</Link></p>
             </div>
           </div>
         )}

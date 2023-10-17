@@ -19,6 +19,8 @@ const Home = () => {
           image2={" https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"}
           image3={"https://rukminim1.flixcart.com/flap/1680/280/image/8d4150cc4f3f967d.jpg?q=50"}
           image4={"https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"}
+          image5={"https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/Jupiter/Phase1/GW/Cons_P1_PC_3000x1200._CB575916699_.jpg"}
+          image6={"https://m.media-amazon.com/images/G/31/img23/Jupiter23/Laptops/Mainstream1_1400x800._CB575801976_.jpg"}
       />
 
 
@@ -56,14 +58,14 @@ const Home = () => {
              height={"400px"}
              width={"100%"}
              style={{borderRadius:"10px"}}
-          src="https://www.youtube.com/embed/mWuV75uxgxg"
+          src="https://www.youtube.com/embed/ILpzlLFSPKg"
           title="Top 20+ Best Phone Deals for You - Flipkart Big Billion Day 2023"
           frameborder="0"
           allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share"
           allowfullscreen
         ></iframe>
         <img
-          src="https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/1d2a222a9659fa9d.jpg?q=50"
+          src="https://m.media-amazon.com/images/G/31/img22/CEPC/Jupiter/23/Eelctronics/Page/Main/Event/Header/Unrec/Header_1500x300_Unrec._CB577605934_.gif"
           alt=""
           height={"500px"}
           width={"100%"}

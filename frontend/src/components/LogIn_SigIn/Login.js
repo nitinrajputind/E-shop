@@ -44,12 +44,12 @@ function Login() {
           toast(`${response.data.msg}`, {
             position: "top-center"
             });
-
+            console.log(response.data.msg)
           setdata(response.data.msg);
         }
       })
       .catch((error) => {
-        console.error("Error logging in:", error);
+        console.error("Error logging in:", error.message);
 
         toast(`${error.message}`, {
           position: "top-center"
@@ -90,10 +90,12 @@ function Login() {
         <button type="submit" className="login-button">
           Login
         </button>
+
         <br />
         <br />
+        <p style={{color:"#2980b9", fontSize:"1rem", fontWeight : "600"}}>New User</p>
         <Link to={"/signup"} onClick={()=>window.scroll(0,0)} >
-          <button className="sign-button">click here for signup</button>
+          <button className="sign-button">Create Your Account</button>
         </Link>
       </form>
 

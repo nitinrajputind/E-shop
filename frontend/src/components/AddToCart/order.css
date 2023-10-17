@@ -168,3 +168,20 @@ table td, tfoot, th, thead, tr{
 .PaymentButton:hover{
   color: #d63031;
 }
+
+
+
+.no-items-message p{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  
+  transition: all ease;
+}
+.no-items-message p a{
+  text-decoration: none;
+  color: #d63031;
+}
+.no-items-message p:hover{
+  transform: scale(1.2);
+}

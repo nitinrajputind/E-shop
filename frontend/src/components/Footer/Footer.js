@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="right_Container_item">
                 <h2>Get Started</h2>
                 <p>Get access to your full Info and knowledge.</p>
-                <p><Link>Login Now</Link></p>
+                <p><Link to={"/login"} onClick={()=>window.scroll(0,0)} >Login Now</Link></p>
             </div>
             <div className="right_Container_item">
                 <h2>Contact Us</h2>

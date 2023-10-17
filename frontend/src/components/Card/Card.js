@@ -9,15 +9,17 @@ const Card = (prop) => {
   const{img, id, name,rating , salePrice, branmrp , category } = prop
   return (
     <div className="productCard">
+
       <div className="product_img">
         <img src={img} alt="" />
       </div>
+
       <div className="Card_Content">
         <div className="CardName">
           <h4>{name}</h4>
           <p className='product_rating'>Rating :<span>{rating}</span> </p>
-          <p className='Sale_price'>Brand Sales Price : <span>{salePrice}</span></p>
-          <p className='brand_price'>Brand MRP : <span>{branmrp}</span></p>
+          <p className='Sale_price'>Sales Price : <span>{salePrice}</span></p>
+          <p className='brand_price'>MRP : <span>{branmrp}</span></p>
         </div>
           <Link to={`/product/${id}/${category}`}>
           <button onClick={()=>window.scroll(0,0)}>Add to Cart</button>

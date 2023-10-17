@@ -43,14 +43,14 @@ const Tablet = () => {
              height={"400px"}
              width={"100%"}
              style={{borderRadius:"10px"}}
-          src="https://www.youtube.com/embed/mWuV75uxgxg"
+          src="https://www.youtube.com/embed/8BV0ET8USTM"
           title="Top 20+ Best Phone Deals for You - Flipkart Big Billion Day 2023"
           frameborder="0"
           allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share"
           allowfullscreen
         ></iframe>
         <img
-          src="https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/1d2a222a9659fa9d.jpg?q=50"
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/tablets/onepluspadgo/1500x300.jpg"
           alt=""
           height={"500px"}
           width={"100%"}

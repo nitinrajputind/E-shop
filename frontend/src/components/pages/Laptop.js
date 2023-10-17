@@ -14,8 +14,8 @@ const Laptop = () => {
   let filteredData;
    if(brandname === 'apple'){
     filteredData = data1 && data1.filter((item)=> item.brandname === brandname)
-   }else if (brandname === "windows"){
-    filteredData = data1 && data1.filter((item)=> item.brandname === 'windows');
+   }else if (brandname === "window"){
+    filteredData = data1 && data1.filter((item)=> item.brandname === brandname);
    }
    else{
     filteredData = data1
@@ -23,7 +23,6 @@ const Laptop = () => {
 
   return(
     <div>
-
 
       <div className="main_Contanier" >
         <div className="card_render">
@@ -62,7 +61,7 @@ const Laptop = () => {
           allowfullscreen
         ></iframe>
         <img
-          src="https://rukminim2.flixcart.com/fk-p-flap/2000/2000/image/1d2a222a9659fa9d.jpg?q=50"
+          src="https://m.media-amazon.com/images/G/31/img22/CEPC/Jupiter/23/Eelctronics/Page/COOP/Acer/Creatives/Amazon-Banner-Diwali-Acer-Aspire-5-1500X300._CB575943169_.jpg"
           alt=""
           height={"500px"}
           width={"100%"}
