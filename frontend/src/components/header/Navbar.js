@@ -31,13 +31,35 @@ const Navbar = () => {
                         <NavLink className="nav-link active" aria-current="page"  to={"/"} onClick={closeMenu}>Home</NavLink>
                     </li>
                     
-                    <li className="nav-item">
-                        <NavLink className="nav-link"  to={"/mobile"} onClick={closeMenu} >Mobile</NavLink>
+                    <li className="nav-item dropdown">
+
+                        <NavLink className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mobile
+                        </NavLink>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><NavLink className="dropdown-item" to={"/mobile"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
+                            <li>
+                                {
+                                   data1 && data1.filter((item)=> item.ID ===23).map((item,index)=>{
+                                        return(
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >Android</NavLink>
+                                        )
+                                    })
+                                }
+                            </li>
+                            <li>
+                                {
+                                    data1 && data1.filter((item)=> item.ID ===32).map((item,index)=>{
+                                        return(
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Iphone</NavLink>
+                                        )
+                                    })
+                                }
+                            </li>
+                        </ul>
                     </li>
                     
-                    <li className="nav-item">
-                        <NavLink className="nav-link" to={"/tablet"} onClick={closeMenu}>Tablet</NavLink>
-                    </li>
+
                     
                     <li className="nav-item dropdown">
                         <NavLink className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

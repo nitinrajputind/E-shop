@@ -21,6 +21,7 @@ const productData = [
     Warranty: "No Warranty",
     quantity: "",
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 2,
@@ -43,6 +44,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "iphone",
   },
   {
     ID: 3,
@@ -65,6 +67,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 4,
@@ -87,6 +90,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "iphone",
   },
   {
     ID: 5,
@@ -110,6 +114,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 6,
@@ -132,6 +137,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 7,
@@ -155,6 +161,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 8,
@@ -177,6 +184,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 9,
@@ -199,6 +207,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "iphone",
   },
   {
     ID: 10,
@@ -221,6 +230,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "iphone",
   },
   {
     ID: 11,
@@ -244,6 +254,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 12,
@@ -267,6 +278,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 13,
@@ -290,6 +302,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 14,
@@ -312,6 +325,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 15,
@@ -335,6 +349,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 16,
@@ -358,6 +373,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 17,
@@ -381,6 +397,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 18,
@@ -404,6 +421,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 19,
@@ -426,6 +444,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
   {
     ID: 20,
@@ -449,6 +468,7 @@ const productData = [
     Warranty: "No Warranty ",
     quantity: 1,
     category: "Mobile",
+    brandname: "android",
   },
 
   // -------------------laptop--------------------
