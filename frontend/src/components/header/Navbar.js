@@ -37,21 +37,21 @@ const Navbar = () => {
                             Mobile
                         </NavLink>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><NavLink className="dropdown-item" to={"/mobile"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
+                            <li><NavLink className="dropdown-item" to={"/mobile/all"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
                             <li>
                                 {
-                                   data1 && data1.filter((item)=> item.ID ===23).map((item,index)=>{
+                                   data1 && data1.filter((item)=> item.ID ===1).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >Android</NavLink>
+                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >Android</NavLink>
                                         )
                                     })
                                 }
                             </li>
                             <li>
                                 {
-                                    data1 && data1.filter((item)=> item.ID ===32).map((item,index)=>{
+                                    data1 && data1.filter((item)=> item.ID ===2).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Iphone</NavLink>
+                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Iphone</NavLink>
                                         )
                                     })
                                 }

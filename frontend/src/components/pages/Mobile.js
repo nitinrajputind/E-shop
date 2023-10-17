@@ -3,19 +3,32 @@ import { Contextdata } from '../Context/Api'
 import Card from '../Card/Card';
 import Banner from '../banner/Banner';
 import Mutlislder from '../multiSlider/MultiSlider';
+import { useParams } from "react-router-dom";
 
 
 
 const Mobile = () => {
   const data1 = useContext(Contextdata);
+  const { brandname } = useParams();
 
+
+  let filteredData;
+
+  if (brandname === "iphone") {
+    filteredData = data1.filter(item => item.brandname === brandname);
+  } else if (brandname === "android") {
+    filteredData = data1.filter(item => item.brandname === brandname);
+  } else 
+  {
+    filteredData = data1;
+  }
 
   return (
     <div>
       <div className="main_Contanier" >
         <div className="card_render">
           {
-            data1 && data1.filter((item)=> item.ID <= 20 && item.ID > 8)
+            filteredData && filteredData.filter((item)=> item.ID <= 20 && item.ID > 1)
             .map((item, index)=>{
               // console.log(item.ID)
               return(
