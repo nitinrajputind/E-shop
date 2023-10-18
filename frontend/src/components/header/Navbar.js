@@ -60,6 +60,12 @@ const Navbar = () => {
                     </li>
                     
 
+
+                    <li className="nav-item">
+                        <NavLink className="nav-link active" aria-current="page"  to={"/tablet"} onClick={closeMenu}>Tablet</NavLink>
+                    </li>
+
+
                     
                     <li className="nav-item dropdown">
                         <NavLink className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
