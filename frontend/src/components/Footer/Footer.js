@@ -22,7 +22,7 @@ const Footer = () => {
                     <h2>Quick Links</h2>
                         <ul className="Quick">
                             <li><Link to={"/"} onClick={ScrollTop}>Home</Link></li>
-                            <li><Link to={"/mobile"} onClick={ScrollTop}>Mobile</Link></li>
+                            <li><Link to={"/mobile/all"} onClick={ScrollTop}>Mobile</Link></li>
                             <li><Link to={"/tablet"} onClick={ScrollTop}>Tablet</Link></li>
                             <li><Link to={"/laptop/all"} onClick={ScrollTop}>Laptop</Link></li>
                             <li><Link to={"/accessories"} onClick={ScrollTop}>Accessories</Link></li>

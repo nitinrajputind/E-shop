@@ -4,10 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid blue; */
+    margin: 50px 0 50px 0;
 }
 .Sucess_Payment{
     width: 90%;
-    height: 90%;
+    /* height: 90%; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +19,7 @@
     border-radius: 30px;
 }
 .Sucess_icon{
-    width: 900px;
+    width: 40%;
 }
 .Sucess_icon img{
     width: 100%;

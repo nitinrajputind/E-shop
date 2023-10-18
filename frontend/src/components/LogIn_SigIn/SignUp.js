@@ -96,7 +96,8 @@ function SignUp() {
         <button type="submit" className="register-button">
           Register
         </button>
-        <p className="Already_Account">Already have an account? <span><Link to={"/login"} >SignIn</Link></span></p>
+        <p className="Already_Account">Already have an account? <span><Link to={"/login"} onClick={()=> window
+        .scroll(0,0)} >SignIn</Link></span></p>
       </form>
     </div>
   );
