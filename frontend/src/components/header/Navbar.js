@@ -37,12 +37,12 @@ const Navbar = () => {
                             Mobile
                         </NavLink>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><NavLink className="dropdown-item" to={"/mobile/all"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
+                            <li><NavLink className="dropdown-item" to={"/mobile/all"} onClick={closeMenu} >All</NavLink></li>
                             <li>
                                 {
                                    data1 && data1.filter((item)=> item.ID ===1).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >Android</NavLink>
+                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`}  onClick={closeMenu} >Android</NavLink>
                                         )
                                     })
                                 }
@@ -51,7 +51,7 @@ const Navbar = () => {
                                 {
                                     data1 && data1.filter((item)=> item.ID ===2).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Iphone</NavLink>
+                                            <NavLink className="dropdown-item" to={`/mobile/${item.brandname}`} onClick={closeMenu}>Iphone</NavLink>
                                         )
                                     })
                                 }
@@ -72,12 +72,12 @@ const Navbar = () => {
                             Laptop
                         </NavLink>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><NavLink className="dropdown-item" to={"/laptop/all"} onClick={()=>{window.scrollTo(0,0)}} >All</NavLink></li>
+                            <li><NavLink className="dropdown-item" to={"/laptop/all"} onClick={closeMenu} >All</NavLink></li>
                             <li>
                                 {
                                    data1 && data1.filter((item)=> item.ID ===23).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`}  onClick={()=>{window.scrollTo(0,0)}} >MAC</NavLink>
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`}  onClick={closeMenu} >MAC</NavLink>
                                         )
                                     })
                                 }
@@ -86,7 +86,7 @@ const Navbar = () => {
                                 {
                                     data1 && data1.filter((item)=> item.ID ===32).map((item,index)=>{
                                         return(
-                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`} onClick={()=>{window.scrollTo(0,0)}}>Windows</NavLink>
+                                            <NavLink className="dropdown-item" to={`/laptop/${item.brandname}`} onClick={closeMenu}>Windows</NavLink>
                                         )
                                     })
                                 }
